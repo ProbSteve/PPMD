@@ -162,9 +162,10 @@ namespace CodeMonkey.Utils {
         }
 
         public void SetPosition(Func<Vector3> getLocalPosition) {
-            FunctionUpdater.Create(() => { 
+            FunctionUpdater.Create();
+            { 
                 transform.localPosition = getLocalPosition();
-            });
+            };
         }
 
         public Vector3 GetPosition() {

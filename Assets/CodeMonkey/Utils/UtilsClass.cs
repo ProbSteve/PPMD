@@ -528,7 +528,7 @@ namespace CodeMonkey.Utils {
         public static FunctionUpdater CreateKeyCodeAction(KeyCode keyCode, Action onKeyDown) {
             return FunctionUpdater.Create(() => {
                 if (Input.GetKeyDown(keyCode)) {
-                    onKeyDown();
+                
                 }
                 return false; 
             });
@@ -597,7 +597,7 @@ namespace CodeMonkey.Utils {
         // Trigger an action next frame
         public static FunctionUpdater ActionNextFrame(Action action) {
             return FunctionUpdater.Create(() => {
-                action();
+               
                 return true;
             });
         }

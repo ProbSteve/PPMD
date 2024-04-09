@@ -29,7 +29,7 @@ namespace CodeMonkey.Utils {
             public Action OnUpdate;
 
             private void Update() {
-                if (OnUpdate != null) OnUpdate();
+                if (OnUpdate != null) Update();
             }
 
         }
@@ -47,13 +47,7 @@ namespace CodeMonkey.Utils {
 
 
         
-        public static FunctionUpdater Create(Action updateFunc) {
-            return Create(() => { updateFunc(); return false; }, "", true, false);
-        }
-
-        public static FunctionUpdater Create(Action updateFunc, string functionName) {
-            return Create(() => { updateFunc(); return false; }, functionName, true, false);
-        }
+       
 
         public static FunctionUpdater Create(Func<bool> updateFunc) {
             return Create(updateFunc, "", true, false);
@@ -76,7 +70,7 @@ namespace CodeMonkey.Utils {
 
             GameObject gameObject = new GameObject("FunctionUpdater Object " + functionName, typeof(MonoBehaviourHook));
             FunctionUpdater functionUpdater = new FunctionUpdater(gameObject, updateFunc, functionName, active);
-            gameObject.GetComponent<MonoBehaviourHook>().OnUpdate = functionUpdater.Update;
+            gameObject.GetComponent<MonoBehaviourHook>().OnUpdate = functionUpdater;
 
             updaterList.Add(functionUpdater);
             return functionUpdater;
@@ -152,6 +146,10 @@ namespace CodeMonkey.Utils {
             }
         }
 
+        internal static void Create()
+        {
+            throw new NotImplementedException();
+        }
     }
 
 }
