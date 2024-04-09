@@ -4,8 +4,11 @@
 TagManager:
   serializedVersion: 2
   tags:
+  - Player2
+  - Enemy
+  - Bullet
   - Ground
-  - Wall
+  - Pickup
   layers:
   - Default
   - TransparentFX
@@ -13,8 +16,8 @@ TagManager:
   - 
   - Water
   - UI
-  - Ground
-  - Wall
+  - 
+  - 
   - 
   - 
   - 
@@ -40,6 +43,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 145232093
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Gameplay
+    uniqueID: 1087635889
     locked: 0
