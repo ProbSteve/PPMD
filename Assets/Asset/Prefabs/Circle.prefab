@@ -98,7 +98,6 @@ GameObject:
   - component: {fileID: 8409207606589773873}
   - component: {fileID: 5138692818209803185}
   - component: {fileID: 5296432075499241170}
-  - component: {fileID: 8295852291023533964}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Player
@@ -188,7 +187,7 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 1
-  m_LinearDrag: 10
+  m_LinearDrag: 5
   m_AngularDrag: 0.05
   m_GravityScale: 0
   m_Material: {fileID: 0}
@@ -218,8 +217,8 @@ MonoBehaviour:
   typeOfControl: 1
   speed: 3
   movementType: 0
-  orientToDirection: 0
-  lookAxis: 1
+  orientToDirection: 1
+  lookAxis: 3
 --- !u!58 &5296432075499241170
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -255,21 +254,3 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
---- !u!114 &8295852291023533964
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4210470293248407549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d926fec57fb4c411a912d607e2822370, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rigidbody2D: {fileID: 0}
-  typeOfControl: 0
-  speed: 0
-  movementType: 0
-  orientToDirection: 1
-  lookAxis: 1
