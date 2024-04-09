@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 00000000000000000000000000000000
+  productGUID: ac08d8cb6d9374adeaef0697b99662d4
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -680,7 +680,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Standalone: GAMEOBJECT_HEADER;DEFAULT_INSPECTORS;CUSTOM_INSPECTORS
+    Standalone: 
   additionalCompilerArguments: {}
   platformArchitecture:
     iPhone: 1
