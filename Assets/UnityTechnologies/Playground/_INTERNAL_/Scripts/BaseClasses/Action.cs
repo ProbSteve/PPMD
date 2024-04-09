@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System;
-using CodeMonkey.Utils;
 
 public abstract class Action : MonoBehaviour
 {
@@ -11,14 +10,4 @@ public abstract class Action : MonoBehaviour
 		//some actions always return true
 		return true;
 	}
-
-    public static implicit operator Action(System.Action v)
-    {
-        throw new NotImplementedException();
-    }
-
-    public static implicit operator Action(FunctionUpdater v)
-    {
-        throw new NotImplementedException();
-    }
 }
