@@ -109,7 +109,7 @@ public class UIScript : MonoBehaviour
 	    if (!gameOver)
 	    {
 			gameOver = true;
-			winLabel.text = "Player " + ++playerNumber + " wins!";
+			winLabel.text = "The MOON reveals itself";
 			statsPanel.SetActive(false);
 			winPanel.SetActive(true);
 		}
