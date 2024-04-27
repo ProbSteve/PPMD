@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: 3029122439184595591}
   - component: {fileID: 3029122439184595590}
   - component: {fileID: 202956457246583984}
-  - component: {fileID: 6346238669624506384}
   - component: {fileID: 3233787914450316463}
   - component: {fileID: 5001268188747751982}
   - component: {fileID: -1197706183017849828}
@@ -247,19 +246,6 @@ PolygonCollider2D:
       - {x: 0.5, y: -0.66999996}
       - {x: 0.83, y: -0.21}
   m_UseDelaunayMesh: 0
---- !u!114 &6346238669624506384
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8107834221916286250}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b9c4adaf25c56477b836b81ad48e3bdb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointsWorth: 1
 --- !u!114 &3233787914450316463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -322,4 +308,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8862ea7b10c84421c9485c36f04335a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  timeToDestruction: 20
+  timeToDestruction: 15
