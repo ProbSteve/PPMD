@@ -294,7 +294,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody2D: {fileID: 0}
-  direction: {x: 0, y: -30}
+  direction: {x: 0, y: -40}
   relativeToRotation: 0
 --- !u!114 &-5319248680450000943
 MonoBehaviour:

@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
@@ -109,7 +109,7 @@ public class UIScript : MonoBehaviour
 	    if (!gameOver)
 	    {
 			gameOver = true;
-			winLabel.text = "The MOON reveals itself";
+			
 			statsPanel.SetActive(false);
 			winPanel.SetActive(true);
 		}

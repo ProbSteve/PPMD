@@ -10,13 +10,23 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -1197706183017849828, guid: a0310ae5b48f0cc4ebac8b7bbb5a379f,
         type: 3}
-      propertyPath: direction.y
+      propertyPath: direction.x
       value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: -1197706183017849828, guid: a0310ae5b48f0cc4ebac8b7bbb5a379f,
+        type: 3}
+      propertyPath: direction.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -1197706183017849828, guid: a0310ae5b48f0cc4ebac8b7bbb5a379f,
+        type: 3}
+      propertyPath: relativeToRotation
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8107834221916286250, guid: a0310ae5b48f0cc4ebac8b7bbb5a379f,
         type: 3}
       propertyPath: m_Name
-      value: Enemy Variant
+      value: Enemy Variant 1
       objectReference: {fileID: 0}
     - target: {fileID: 8109127197010803134, guid: a0310ae5b48f0cc4ebac8b7bbb5a379f,
         type: 3}
@@ -41,7 +51,7 @@ PrefabInstance:
     - target: {fileID: 8109127197010803134, guid: a0310ae5b48f0cc4ebac8b7bbb5a379f,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 8109127197010803134, guid: a0310ae5b48f0cc4ebac8b7bbb5a379f,
         type: 3}
@@ -56,7 +66,7 @@ PrefabInstance:
     - target: {fileID: 8109127197010803134, guid: a0310ae5b48f0cc4ebac8b7bbb5a379f,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 8109127197010803134, guid: a0310ae5b48f0cc4ebac8b7bbb5a379f,
         type: 3}
@@ -71,7 +81,7 @@ PrefabInstance:
     - target: {fileID: 8109127197010803134, guid: a0310ae5b48f0cc4ebac8b7bbb5a379f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
